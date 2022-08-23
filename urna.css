@@ -1,0 +1,92 @@
+* {
+    margin: auto;
+    border: 0;
+}
+
+.fundo {
+    background-color: white;
+    display: flex;
+}
+
+.urna {
+    display: flex;
+}
+
+.main-urna {
+    display: flex;
+    background-color: #d3cdbd;
+    width: 800px;
+    height: 500px;
+    margin-top: 15%;
+}
+.marca{
+    background-color: rgb(11, 1, 43);
+    display: flex;
+    width: 300px;
+    height: 50px;
+    margin-top: 0;
+    margin-right: 0%;
+
+}
+.fundo-teclado {
+    background-color: rgb(27, 26, 26);
+    width: 300px;
+    height: 330px;
+    margin-top: 0%;
+    margin-right: 4%;
+}
+.botoes{
+    display: flex;
+    width: 250px;
+    margin-right: 8%;
+    padding-top: 1%;
+}
+.texto{
+    font-size: 12px;
+    font-weight: bolder;
+}
+.confirma {
+    width: 70px;
+    height: 50px;
+    background-color: #40c173;
+    text-align: center;
+
+}
+.corrige {
+    width: 70px;
+    height: 50px;
+    background-color: #f79850;
+    text-align: center;
+
+}
+.branco {
+    width: 70px;
+    height: 50px;
+    background-color: white;
+    text-align: center;
+
+}
+.tela{
+    width: 400px;
+    height: 300px;
+    background-color: white; 
+}
+.zoser{
+    color: white;
+    font-size: 20px;
+    text-align: right;
+}
+.logo{
+    width: 60px;
+    height: auto;
+}
+.numeros{
+    height: 250px;
+
+}
+.numero{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(163, 34, 34);
+   
+}
