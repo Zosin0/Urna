@@ -82,11 +82,14 @@
 }
 .numeros{
     height: 250px;
-
+    align-items: center;
+    text-align: center;
+    padding-top: 3%;
 }
 .numero{
     width: 50px;
     height: 50px;
-    background-color: rgb(163, 34, 34);
-   
+    background-color: black;
+    color: white;
+
 }
