@@ -10,9 +10,16 @@
 </head>
 
 <body class="fundo">
+    <div class="exterior"></div>
     <div class="urna">
         <div class="main-urna">
-            <div class="tela"></div>
+            <div class="tela">
+                <fieldset class="text-field">
+                    <label class="nome" for="candidato"> Candidato: </label><br>
+                    <input class="input" id="candidato" type="number" name="candidato" required pattern = "\d{1}">
+                    <input class="input" id="candidato" type="number" name="candidato" required pattern = "\d{1}">
+                </fieldset>
+            </div>
 
             <div class="teclado">
                 <div class="marca">
@@ -41,12 +48,11 @@
                         <div class="corrige"><b class="texto"><br>CORRIGE</b></div>
                         <div class="confirma"><b class="texto"><br>CONFIRMA</b></div>
                     </div>
-    
+
                 </div>
-
-
             </div>
         </div>
     </div>
 </body>
+
 </html>
