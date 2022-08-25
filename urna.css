@@ -4,7 +4,7 @@
 }
 .fundo {
     background-color: white;
-    display: block;  
+    display: flex;  
 }
 .urna {
     display: flex;
@@ -63,7 +63,6 @@
 
 }
 .tela{
-    display: flex;
     width: 400px;
     height: 300px;
     background-color: white; 
@@ -102,37 +101,31 @@ button:hover{
     position: relative;
 }
 .text-field{
-    display: block;
-    margin: 10%;
+    display: inline-block;
+    margin: 6%;
 }
 .nome{
-    font-size: 24px;
+    font-size: 18px;
     font-weight: 900;
-    display: block;
-    padding-top: 10%;
+    display: flex;
 }
 .input{
     border: 1px outset black;
     background-color: white;
-    height:30px;
-    width: 30px;
+    height:50px;
+    width: 50px;
     cursor:pointer;
     font-size: 18px;
     font-weight: bolder;
-    text-align: cente;
-}
-.image{
-    width: 150px;
-    height: 150px;
-
+    text-align: center;
 }
 .quadrado{
     border: 1px outset black;
     background-color: white;
-    height:180px;
-    width: 152px;
+    height: 80px;
+    width: 100px;
     cursor:pointer;
     margin-right: 8%;
-    margin-top: 10%;
+    margin-top: 12%;
 
 }

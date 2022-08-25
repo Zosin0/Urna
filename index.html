@@ -8,53 +8,63 @@
     <link rel="stylesheet" href="urna.css">
     <title>Urna</title>
 </head>
-
 <body class="fundo">
-    <div class="exterior"></div>
-    <div class="urna">
-        <div class="main-urna">
-            <div class="tela">
-                <fieldset class="text-field">
-                    <label class="nome" for="candidato"> Candidato: </label><br>
-                    <input class="input" id="candidato" type="number" name="candidato" required pattern = "\d{1}">
-                    <input class="input" id="candidato" type="number" name="candidato" required pattern = "\d{1}">
-                </fieldset>
-                <div class="quadrado"> 
-                    <img class="image" src="/assets/candidato.png">
-                </div>
-            </div>
-            <div class="teclado">
-                <div class="marca">
-                    <img class="logo" src="/assets/lz.png" alt="logo">
-                    <p class="zoser">Made by: <br>Lucas Zoser</p>
-                </div>
-                <div class="fundo-teclado">
-                    <div class="numeros">
-                        <button class="numero" action="on-click">1</button>
-                        <button class="numero" action="on-click">2</button>
-                        <button class="numero" action="on-click">3</button>
-                        <br>
-                        <button class="numero" action="on-click">4</button>
-                        <button class="numero" action="on-click">5</button>
-                        <button class="numero" action="on-click">6</button>
-                        <br>
-                        <button class="numero" action="on-click">7</button>
-                        <button class="numero" action="on-click">8</button>
-                        <button class="numero" action="on-click">9</button>
-                        <br>
-                        <button class="numero" action="on-click">0</button>
-
+    <div style="display: block;">
+        <div class="exterior"></div>
+        <div class="urna">
+            <div class="main-urna">
+                <div class="tela">
+                    <div style="display: flex;">
+                        <div style="display: block;">
+                            <fieldset class="text-field">
+                                <h1 style="font-size: 15px; padding-bottom: 5%;"> Seu voto para <br> DEPUTADO FEDERAL</h1>
+                                <label class="nome" for="candidato"> Número: </label>
+                                <div id="number-input">
+                                    <input id="num1" class="input" id="candidato" type="number" name="candidato">
+                                    <input id="num2" class="input" id="candidato" type="number" name="candidato">
+                                    <input id="num3" class="input" id="candidato" type="number" name="candidato">
+                                    <input id="num4" class="input" id="candidato" type="number" name="candidato">
+                                    <input id="num5" class="input" id="candidato" type="number" name="candidato">
+                                </div>
+    
+                            </fieldset>
+                            <div style="display: block; padding-top: 5%; padding-left: 11%; ">
+                                <label class="nome" for="candidato"> Nome: </label><br>
+                                <label class="nome" for="candidato"> Partido: </label><br>
+                            </div>
+                        </div>
+                        <div class="quadrado">
+                        </div>
                     </div>
-                    <div class="botoes">
-                        <div class="branco"><b class="texto"><br>BRANCO</b></div>
-                        <div class="corrige"><b class="texto"><br>CORRIGE</b></div>
-                        <div class="confirma"><b class="texto"><br>CONFIRMA</b></div>
+                </div>
+                <div class="teclado">
+                    <div class="fundo-teclado">
+                        <div id="numpad" class="numeros">
+                            <button id="1" class="numero" action="on-click">1</button>
+                            <button id="2" class="numero" action="on-click">2</button>
+                            <button id="3" class="numero" action="on-click">3</button>
+                            <button id="4" class="numero" action="on-click">4</button>
+                            <button id="5" class="numero" action="on-click">5</button>
+                            <button id="6" class="numero" action="on-click">6</button>
+                            <button id="7" class="numero" action="on-click">7</button>
+                            <button id="8" class="numero" action="on-click">8</button>
+                            <button id="9" class="numero" action="on-click">9</button>
+                            <button id="0" class="numero" action="on-click">0</button>
+                        </div>
+                        <div class="botoes">
+                            <div class="branco"><b class="texto"><br>BRANCO</b></div>
+                            <div class="corrige"><b class="texto"><br>CORRIGE</b></div>
+                            <div class="confirma"><b class="texto"><br>CONFIRMA</b></div>
+                        </div>
+    
                     </div>
-
                 </div>
             </div>
         </div>
     </div>
+   
+    <script src="/js/urna.js"></script>
 </body>
 
 </html>
+
