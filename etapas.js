@@ -30,7 +30,7 @@ let etapas = [
                 name: 'Lucas Zoser',
                 partido: 'ZOSER',
                 fotos: [
-                    { url: 'lucasz', legenda: 'Deputado Estadual', small: false }
+                    { url: 'lucasz.jpg', legenda: 'Deputado Estadual', small: false }
                 ]
             },
             {
@@ -38,7 +38,7 @@ let etapas = [
                 name: 'Leo Sands',
                 partido: 'SANDS',
                 fotos: [
-                    { url: 'leos', legenda: 'Deputado Estadual' }
+                    { url: 'leos.jpg', legenda: 'Deputado Estadual' }
                 ]
             },
         ]
@@ -52,7 +52,7 @@ let etapas = [
                 name: 'Lucas Zoser',
                 partido: 'ZOSER',
                 fotos: [
-                    { url: 'lucasz', legenda: 'Senador', small: false }
+                    { url: 'lucasz.jpg', legenda: 'Senador', small: false }
                 ]
             },
             {
@@ -60,7 +60,7 @@ let etapas = [
                 name: 'Leo Sands',
                 partido: 'SANDS',
                 fotos: [
-                    { url: 'leos', legenda: 'Senador' }
+                    { url: 'leos.jpg', legenda: 'Senador' }
                 ]
             },
         ]
@@ -75,8 +75,8 @@ let etapas = [
                 partido: 'PED',
                 vice: 'Leo Sands',
                 fotos: [
-                    { url: 'pedrao', legenda: 'Governador' },
-                    { url: 'leos', legenda: 'Vice-Governador', small: true }
+                    { url: 'pedrao.jpg', legenda: 'Governador' },
+                    { url: 'leos.jpg', legenda: 'Vice-Governador', small: true }
                 ]
             },
             {
@@ -85,8 +85,8 @@ let etapas = [
                 partido: 'AREIA',
                 vice: 'Zosin',
                 fotos: [
-                    { url: 'leos', legenda: 'Governador' },
-                    { url: 'lucasz', legenda: 'Vice-Governador ', small: true }
+                    { url: 'leos.jpg', legenda: 'Governador' },
+                    { url: 'lucasz.jpg', legenda: 'Vice-Governador ', small: true }
                 ]
             },
         ]
@@ -101,8 +101,8 @@ let etapas = [
                 partido: 'BOM',
                 vice: 'Leo Sands',
                 fotos: [
-                    { url: 'leob', legenda: 'Presidente' },
-                    { url: 'leos', legenda: 'Vice-Presidente', small: true }
+                    { url: 'leob.jpg', legenda: 'Presidente' },
+                    { url: 'leos.jpg', legenda: 'Vice-Presidente', small: true }
                 ]
             },
             {
@@ -111,8 +111,8 @@ let etapas = [
                 partido: 'ZOSER',
                 vice: 'Pedrão',
                 fotos: [
-                    { url: 'lucasz', legenda: 'Presidente' },
-                    { url: 'pedrao', legenda: 'Vice-Presidente', small: true }
+                    { url: 'lucasz.jpg', legenda: 'Presidente' },
+                    { url: 'pedrao.jpg', legenda: 'Vice-Presidente', small: true }
                 ]
             },
         ]
