@@ -1,3 +1,4 @@
+
 const addButtons = () => {
 
     const numpad = document.getElementById("numpad")
@@ -18,14 +19,17 @@ const addButtons = () => {
         })
     }
 }
+const getKeys = () => {
+}
 const addKeys = () =>{     
     window.addEventListener("keydown", function (event) {
         if (event.defaultPrevented) {
             return;
         }
+
     switch (event.key) {
         case "1":
-            console.log("numero 1")
+            document.getElementById("num1").value = 1            
             break;
         case "2":
             console.log("numero 2")
@@ -66,4 +70,9 @@ const addKeys = () =>{
 document.addEventListener("DOMContentLoaded", () => {
     addButtons()
     addKeys()
+    opcoes_teclas.forEach((item) => {
+        let tecla = document.querySelector(item)
+        tecla.addEventListener('click', () => prencher(tecla))
+    })
+
 })
